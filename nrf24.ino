@@ -3,6 +3,7 @@
 const int CE = 7;
 const int CSN = 3;
 const int channel = 40;
+const int INT = 2;
 
 const size_t payload_length = 4;
 uint8_t packet[payload_length] = {0xca,0xfe,0xba,0xbe};
